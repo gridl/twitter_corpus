@@ -10,6 +10,12 @@ On each iteration of the collect, the first worldwide Twitter trend is taken, an
 
 The object is saved in csv. 
 
+## How to load it in R 
+
+```{r}
+corpus <- read_csv("https://github.com/ColinFay/twitter_corpus/raw/master/twitter_corpus.csv")
+```
+
 ## Reuse
 
 Feel free to use this corpus. 
