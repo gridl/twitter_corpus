@@ -13,7 +13,9 @@ The object is saved in csv, and .rda.
 ## How to load it in R 
 
 ```{r}
-corpus <- read_csv("https://github.com/ColinFay/twitter_corpus/raw/master/twitter_corpus.csv")
+corpus <- read.csv("https://github.com/ColinFay/twitter_corpus/raw/master/twitter_corpus.csv")
+download.file(url = "https://github.com/ColinFay/twitter_corpus/raw/master/twitter_corpus.rda", destfile = "corpus.rda")
+load("~/corpus.rda")
 ```
 
 ## Reuse
